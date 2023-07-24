@@ -1,0 +1,464 @@
+/*TYPO*/ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-nav {
+    background-color: black
+    ;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-weight:bolder;
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+
+/*navbar colores*/
+.concept:hover {
+    color: #FFB30D;
+}
+
+.plants:hover {
+    color: #04D939;
+}
+
+.music:hover {
+    color: #3CA6A6;
+}
+
+.wander:hover {
+    color: #FACFCE;
+}
+
+.contact:hover {
+    color: #A68F97;
+}
+
+#footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.redes {
+    display: flex;
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.copyright {
+    color: white;
+}
+
+
+/*titulo h1*/
+
+.contenedor-title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: right;
+    width: 75%;
+}
+
+/*texto 1 y 2 - CONCEPT*/
+
+.paragraph-one {
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 2rem;
+    width: 35%;
+    border-top: 0.05rem solid #FFFFFF ;
+    border-bottom: 0.05rem solid #FFFFFF;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.contenedor-right {
+    display: flex;
+    justify-content:end;
+    text-align: right;
+}
+
+/*banner 2*/
+.banner2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*titulo 2 - PLANTS*/ 
+
+.title2 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 2rem;
+    padding-right: 5rem;
+}
+
+/*bloques de PLANTS*/
+
+.img-plants {
+    width: 40%;
+    padding-left: 15%;
+    padding-right: 1rem;
+}
+
+.block1 {
+    display: flex;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*formato de los textos - PLANTS*/
+.mini-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+    padding-left: 0.7rem;
+}
+
+.paragraph-plants {
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 2rem;
+    width: 60%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.block3 {
+    display: flex;
+    padding: 7rem;
+}
+
+.img-plants2 {
+    width: 40%;
+    padding-left: 1rem;
+    padding-right: 15%;
+}
+
+.block4 {
+    text-align: right;
+
+}
+
+.paragraph-plants2 {
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding-left: 40%;
+}
+
+.playlist {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.img-wander {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    border-top: 0.1rem solid #FFFFFF;
+}
+
+.blockwander {
+    display: flex;
+    padding-bottom: 10rem;
+}
+
+.blockwander2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.boton {
+    all: unset;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 40%;
+    border-bottom: 0.1rem solid  #FFFFFF;
+}
+
+.boton:hover {
+    color: gray;
+    
+}
+
+.contacto {
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.ctc-p {
+    margin: 0;
+}
+
+.title3 {
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 3.5rem;
+    margin-left: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.form {
+    padding-left: 20rem;
+}
+
+.form1 {
+    background-color: white;
+    width: 25rem;
+    
+    }
+
+.form4 {
+    background-color: white;
+}
+
+.form2 {
+    text-align: start;
+    padding-bottom: 2rem;
+
+}
+
+.form3 {
+    text-align: start;
+    padding-bottom: 2rem;
+    
+}
+
+.boton2 {
+    color: black;
+    background-color: white;
+    font-family:'Open Sans', sans-serif; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.contenedor-boton {
+    padding-left: 32%;
+}
+
+/*media q para mobile*/
+
+@media only screen and (max-width: 390px) {
+
+    .title {
+        margin: 0;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 25px;
+        color: #FFFFFF;
+        font-weight: 500;
+        text-align: right;
+        width: 75%;
+    }
+
+    .paragraph-one {
+        margin: 0;
+        font-family:'Open Sans', sans-serif;
+        color: #FFFFFF;
+        font-size: 10px;
+        width: 45%;
+        border-top: 0.05rem solid #FFFFFF ;
+        border-bottom: 0.05rem solid #FFFFFF;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .title2 {
+        margin: 0;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 50px;
+        color: #FFFFFF;
+        font-weight: 500;
+        padding: 2rem;
+
+    }
+
+    .contenedor-title {
+        display: flex;
+        justify-content:right ;
+        text-align: center;
+    }
+
+    .contenedor-right {
+        display: flex;
+        justify-content:center ;
+        text-align: center;
+    }
+
+    .block1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-plants {
+        width: 40%;
+        padding: 0;
+    
+    }
+
+    .paragraph-plants {
+        margin: 0;
+        font-family:'Open Sans', sans-serif;
+        color: #FFFFFF;
+        font-size: 1rem;
+        padding: 0;
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .block3 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .img-plants2 {
+        width: 40%;
+        padding: 0;
+    }
+
+    .block4 {
+        text-align: center;
+    
+    }
+
+    .paragraph-plants2 {
+        font-family:'Open Sans', sans-serif;
+        color: #FFFFFF;
+        font-size: 1rem;
+        padding: 2rem;
+        width: 100%;
+
+    }
+
+    .img-wander {
+        width: 60%;
+        height: 70%;
+        border-top: 0.1rem solid #FFFFFF;
+    }
+
+    .blockwander {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blockwander2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .mini-title {
+        text-align: center;
+    }
+
+    .boton {
+        margin: 0;
+        border: 0;
+    }
+
+    .ctc-p {
+        font-size: 20px;
+    }
+
+    .title3 {
+        margin: 0;
+        padding: 0;
+        padding-top: 2rem;
+    }
+
+    .media {
+        text-align: center;
+    }
+
+    .form {
+        padding: 0;
+
+    }  
+
+    .form2 {
+        text-align: start;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    
+    }
+    
+    .form3 {
+        text-align: start;
+        padding-bottom: 1rem;
+        
+    }
+
+    .contenedor-boton {
+        padding-left: 80%;
+    }
+
+}
+
